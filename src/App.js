@@ -24,7 +24,6 @@ class App extends Component{
   render(){
     console.log(this.state.cats)
     return(
-      <>
         <Router>
           <Header />
           <Switch>
@@ -37,7 +36,6 @@ class App extends Component{
           </Switch>
           <Footer />
         </Router>
-      </>
     )
   }
 }
