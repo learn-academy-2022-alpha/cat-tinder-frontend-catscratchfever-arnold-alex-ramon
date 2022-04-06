@@ -25,9 +25,8 @@ class App extends Component{
     console.log(this.state.cats)
     return(
       <>
-        <h1>Home is where my cat is!</h1>
-        <Header />
         <Router>
+          <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/catindex" component={CatIndex} />
@@ -36,8 +35,8 @@ class App extends Component{
             <Route path="/catedit" component={CatEdit} />
             <Route component={NotFound}/>
           </Switch>
+          <Footer />
         </Router>
-        <Footer />
       </>
     )
   }
