@@ -44,7 +44,7 @@ export default class Header extends Component {
                                     <DropdownToggle caret nav>
                                         Options
                                     </DropdownToggle>
-                                    <DropdownMenu end>
+                                    <DropdownMenu right>
                                         <DropdownItem>
                                             <NavLink href="/catnew">Add a Cat</NavLink>
                                         </DropdownItem>
