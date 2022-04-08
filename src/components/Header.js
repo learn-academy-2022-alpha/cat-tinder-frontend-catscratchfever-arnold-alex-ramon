@@ -22,7 +22,7 @@ export default class Header extends Component {
                         light
                     >
                         <NavbarBrand href="/">
-                            I am a Header
+                            Cat Tinder
                         </NavbarBrand>
                         <NavbarToggler onClick={function noRefCheck(){}} />
                         <Collapse navbar>
@@ -44,7 +44,7 @@ export default class Header extends Component {
                                     <DropdownToggle caret nav>
                                         Options
                                     </DropdownToggle>
-                                    <DropdownMenu right>
+                                    <DropdownMenu end>
                                         <DropdownItem>
                                             <NavLink href="/catnew">Add a Cat</NavLink>
                                         </DropdownItem>

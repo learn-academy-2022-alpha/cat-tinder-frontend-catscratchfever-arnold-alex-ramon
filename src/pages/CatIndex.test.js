@@ -9,7 +9,7 @@ Enzyme.configure({ adapter: new Adapter() });
 describe("When CatIndex Renders", () => {
   it("displays a heading", () => {
     const catIndex = shallow(<CatIndex />);
-    const indexHeader = catIndex.find("h2");
-    expect(indexHeader.text()).toEqual("Find the purrrfect cat'ch!");
+    const indexHeader = catIndex.find("h2").text();
+    expect(indexHeader).toEqual("Find the purrrfect cat'ch!");
   });
 });

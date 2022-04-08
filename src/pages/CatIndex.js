@@ -9,7 +9,9 @@ class CatIndex extends Component {
                 <h2>Find the purrrfect cat'ch!</h2>
                 {this.props.cats && this.props.cats.map(cat => {
                     return(
-                    <NavLink to={`/catshow/${cat.id}`} key={cat.id}>{cat.name}</NavLink>
+                    <NavLink to={`/catshow/${cat.id}`}> 
+                        {cat.name}
+                    </NavLink>
                     )
                 })}
             </>
