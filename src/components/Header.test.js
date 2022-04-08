@@ -15,7 +15,7 @@ Enzyme.configure({adapter: new Adapter()})
 
 
 describe("When Header renders", () => {
-    it("displays a footer", () => {
+    it("displays a heading", () => {
       const newHeader = shallow(<Header/>)
       const homeHeading = newHeader.find("Header")
       expect(newHeader.length).toEqual(1)

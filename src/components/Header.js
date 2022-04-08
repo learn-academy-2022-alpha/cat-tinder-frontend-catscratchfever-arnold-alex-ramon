@@ -22,7 +22,7 @@ export default class Header extends Component {
                         light
                     >
                         <NavbarBrand href="/">
-                            I am a Header
+                            Cat Tinder
                         </NavbarBrand>
                         <NavbarToggler onClick={function noRefCheck(){}} />
                         <Collapse navbar>

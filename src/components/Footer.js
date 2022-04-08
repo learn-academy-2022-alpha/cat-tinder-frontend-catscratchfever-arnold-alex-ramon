@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import './footer.css'
 
 export default class Footer extends Component {
     render() {
@@ -13,7 +14,7 @@ export default class Footer extends Component {
                     <section className="footer-info">
                         <section className="footer-info-left">
                             <section className="footer-info__name">
-                                Left column
+                                <h2> Thank You! </h2>
                             </section>
                             <section className="footer-info__returns">
                                 Left column 2nd item
