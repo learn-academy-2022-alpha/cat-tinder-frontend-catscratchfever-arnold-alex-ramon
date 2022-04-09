@@ -16,16 +16,16 @@ class CatNew extends Component {
             submitted: false
         }
     }
-
-    handleSubmit = () => {
-        this.props.createCat(this.state.newCat)
-        this.setState({submitted: true})
-    }
-
     handleChange = (e) => {
         let { newCat } = this.state
         newCat[e.target.name] = e.target.value
         this.setState({newCat: newCat})
+    
+    }
+    handleSubmit = () => {
+        this.props.createNewCat(this.state.newCat)
+        this.setState({submitted: true})
+    
     }
 
     render() {
