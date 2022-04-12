@@ -2,13 +2,18 @@ import React, { Component } from 'react'
 
 class Home extends Component {
     render() {
-        return( 
-        <>
-        <h2>CAT TINDER</h2>
-        <h3>Home </h3>
-        </>
+        return(
+        <div style= {{
+            backgroundImage: `url("/backgrounds/homepage.jpg")`,
+            height: '100vh',
+            position: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: '1920px 1080px',
+            backgroundAttachment: 'fixed'
+          }}>
+            <a href="/CatNew" class="join">Join Today</a>
+          </div>
         )
     }
 }
-
 export default Home
